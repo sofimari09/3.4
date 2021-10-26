@@ -16,7 +16,7 @@ int main()
 
 	// розгалуження в повній формі
 	if ((y <= sqrt(R*R-x*x) && y >= 0) ||
-		(y <= -R && y <=x))
+		(y >= -R && y <=x))
 		cout << "yes" << endl;
 	else
 		cout << "no" << endl;
